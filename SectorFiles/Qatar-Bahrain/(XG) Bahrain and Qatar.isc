@@ -1,0 +1,87 @@
+// -------------------------------------------------------------------- 
+// - (C)2023 IVAO GCC Division xg.ivao.aero
+// - Usage only allowed on the IVAO Network or at IVAO related events
+// - This Sectorfile must always acompanied by the History file
+// -------------------------------------------------------------------- 
+// 2311
+[INFO]
+N026.24.24.000
+E051.01.10.000
+60
+53.823
+2.8
+OBBB;OBBB\OBBI;OBBB\OBBS;OBBB\OBKH;OBBB\OTBD;OBBB\OTBH;OBBB\OTHH;OBBB\OBBB_FIR;
+
+[ATIS]
+F;OBBB_FIR\OBBB-FIR.atis
+[AIRPORT]
+F;OBBB_FIR\OBBB.apt
+[AIRSPACE]
+F;OBBB_FIR\OBBB-FIR.airspace
+[AIRSPACE LOW]
+F;OBBI\OBBI-low.airspace
+F;OBBS\OBBS-low.airspace
+F;OBKH\OBKH-low.airspace
+F;OTBD\OTBD-low.airspace
+F;OTBH\OTBH-low.airspace
+F;OTHH\OTHH-low.airspace
+[AIRSPACE HIGH]
+F;OBBI\OBBI-high.airspace
+F;OBBS\OBBS-high.airspace
+F;OBKH\OBKH-high.airspace
+F;OTBD\OTBD-high.airspace
+F;OTBH\OTBH-high.airspace
+F;OTHH\OTHH-high.airspace
+[HIGH AIRWAY]
+F;OBBB_FIR\OBBB-FIR.airways
+[GEO]
+F;OBBB_FIR\coast.geo
+F;OTBH\OTBH.geo
+F;OTBH\OTBH.geo
+F;OTHH\OTHH.geo
+F;OTHH\QATAR.geo
+F;OBBI\OBBI.geo
+F;OBBS\OBBS.geo
+F;OBKH\OBKH.geo
+
+
+[FILLCOLOR]
+F;OTHH\OTHH.TFL
+F;OTBH\OTBH.TFL
+F;OTBD\OTBD.TFL
+F;OBBI\OBBI.TFL
+F;OBBS\OBBS.TFL
+F;OBBB_FIR\OBBB-FIR-ATC.tfl
+
+[ATC]
+F;OBBB_FIR\OBBB-FIR.atc
+
+[RUNWAY]
+F;OBBB_FIR\OBBB.rwy
+
+[LOW AIRWAY]
+F;OBBB_FIR\OBBB-Hidden.lairway
+F;OBBB_FIR\OBBB.lairway
+
+[HIGH AIRWAY]
+F;OBBB_FIR\OBBB-hidden.hairway
+F;OBBB_FIR\OBBB.hairway
+
+[FIXES]
+F;OBBB_FIR\OBBB-FIR-Hidden.fix
+F;OBBB_FIR\OBBB-FIR.fixes
+
+[VOR]
+F;OBBB_FIR\OBBB-FIR-Hidden.vor
+F;OBBB_FIR\OBBB-FIR.vor
+[NDB]
+F;OBBB_FIR\OBBB-FIR-Hidden.ndb
+F;OBBB_FIR\OBBB-FIR.ndb
+
+
+[ARTCC HIGH]
+F;OBBB_FIR\OBBB-FIR.hartcc
+
+
+[ARTCC Low]
+F;OBBB_FIR\OBBB-FIR.lartcc
